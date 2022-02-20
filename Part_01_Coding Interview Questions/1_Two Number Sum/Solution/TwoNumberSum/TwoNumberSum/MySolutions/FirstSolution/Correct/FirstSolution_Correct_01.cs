@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TwoNumberSum.MySolutions.FirstSolution.Correct
+namespace TwoNumberSum.MySolutions
 {
-    public class _1
+    public class FirstSolution_Correct_01
     {
         /* algorithm analysis :
          * 1- time complexity :

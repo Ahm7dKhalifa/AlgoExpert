@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TwoNumberSum.MySolutions.FirstSolution.Wrong
+namespace TwoNumberSum.MySolutions.FirstSolution
 {
-    public class _1
+    public class FirstSolution_Wrong_01
     {
         /*wrong reasons :
             test case 1 :
