@@ -1,0 +1,9 @@
+1- https://coderbyte.com/algorithm/two-sum-problem
+2- https://www.tutorialcup.com/leetcode-solutions/two-sum-leetcode-solution.htm
+3- https://towardsdatascience.com/leetcode-problem-1-python-ec6cba23c20f
+4- https://programs.programmingoneonone.com/2021/07/leetcode-two-sum-problem-solution.html?m=1
+5- https://codeburst.io/understanding-the-two-sum-problem-9a6428083a7f
+6- https://redquark.org/leetcode/0001-two-sum/
+7- https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
+8- https://www.geeksforgeeks.org/print-all-pairs-with-given-sum/
+9- https://www.geeksforgeeks.org/given-two-unsorted-arrays-find-pairs-whose-sum-x/
