@@ -4,9 +4,19 @@ using System.Text;
 
 namespace TwoNumberSum.AlgoExpertSolutions
 {
-    public class SecondSolution
+    public class SecondSolution_UsingHashTableDirectly
     {
         // Copyright © 2022 AlgoExpert LLC. All rights reserved
+
+        /* Algorithm Analysis
+        * 
+        * Time Complexity = O(N)
+        * 
+        * 
+        * Space Complexity = O(1) If the Problem Required To Return First Pair Only
+        * Space Complexity = O(N) If the Problem Required To Return All Pairs 
+        * 
+        * */
         public static int[] TwoNumberSum(int[] array, int targetSum)
         { 
 

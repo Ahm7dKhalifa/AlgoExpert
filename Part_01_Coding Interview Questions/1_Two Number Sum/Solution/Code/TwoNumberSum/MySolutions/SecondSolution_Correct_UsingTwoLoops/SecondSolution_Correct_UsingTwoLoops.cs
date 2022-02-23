@@ -4,15 +4,15 @@ using System.Text;
 
 namespace TwoNumberSum.MySolutions
 {
-    public class FirstSolution_Correct_01
+    public class SecondSolution_Correct_UsingTwoLoops
     {
         /* algorithm analysis :
          * 1- time complexity :
-         * two loops --> o(T) = n~2
+         * two loops --> O(t) = n^2
          * 
          * 
          * 2- space complexity :
-         * o(S) = n
+         * O(s) = n
          * worst case example :
          * array : [6,3,7,4,8,1,9,2]
          * target sum : 10

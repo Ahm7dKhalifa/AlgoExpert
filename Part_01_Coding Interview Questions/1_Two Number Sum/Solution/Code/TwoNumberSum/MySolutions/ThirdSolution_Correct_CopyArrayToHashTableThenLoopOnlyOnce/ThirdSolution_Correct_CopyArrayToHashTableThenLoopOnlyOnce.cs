@@ -3,16 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace TwoNumberSum.MySolutions.SecondSolution
+namespace TwoNumberSum.MySolutions
 {
-    public class SecondSolution_Bad_01
+    public class ThirdSolution_Correct_CopyArrayToHashTableThenLoopOnlyOnce
     {
-        /* Why This Is Bad Soluation ?
-         * Because The Time Complexity = O(2N)
+        /* Algorithm Analysis
+         * 
+         * Time Complexity = O(2N) ~= O(N)
          * Create Dictionary From Array = N
          * Looping Through Dictionary To Add Numbers = N
          * 
-         * We Can Get More Smart Solution That Cost Only = O(N)
+         * Space Complexity = O(2N) ~= O(N) 
+         * Dictionary = N
+         * Output List = N
+         * 
+         * Can Get More Smart Solution ?
+         * See Second Solution On AlgoExpert Folder That Cost Only Time Complexity = O(N) and Space Complexity = O(N)
          * 
          * */
 
