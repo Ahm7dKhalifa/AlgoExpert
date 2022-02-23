@@ -1,0 +1,11 @@
+1- https://www.swiftramen.com/home/validate-array-subsequence
+2- https://github.com/pinglu85/algoExpert/blob/main/Easy/validate-subsequence.md
+3- https://golangexample.com/discover-solutions-to-algoexpert-problems-in-six-programming-languages-python-java-go-c-c-and-javascript-typescript/
+4- https://stackoverflow.com/questions/33174985/how-do-you-check-if-one-array-is-a-subsequence-of-another
+5- https://stackoverflow.com/questions/54496186/check-whether-the-sequence-is-a-subsequence-of-another/54496430
+6- https://stackoverflow.com/questions/40257621/check-if-array-contains-exact-same-sequence-as-other-array
+7- https://javascript.plainenglish.io/a-deep-dive-of-one-of-the-algorithms-ive-solved-this-week-534f13e8f1e
+8- https://levelup.gitconnected.com/coding-problem-validate-subsequence-in-go-e8e6af5a8054
+9- https://karanchauhan16.medium.com/validate-subsequence-with-python-68ebeb5563e3
+10- https://shareablecode.com/snippets/solution-in-python3-for-validate-subsequence-problem-on-algoexpert-qfdY-NjrF
+11- https://velocitybytes.com/coding-problem-validate-subsequence

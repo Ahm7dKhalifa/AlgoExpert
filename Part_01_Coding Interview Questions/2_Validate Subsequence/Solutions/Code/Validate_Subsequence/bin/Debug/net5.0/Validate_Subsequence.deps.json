@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Validate_Subsequence/1.0.0": {
+        "runtime": {
+          "Validate_Subsequence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Validate_Subsequence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

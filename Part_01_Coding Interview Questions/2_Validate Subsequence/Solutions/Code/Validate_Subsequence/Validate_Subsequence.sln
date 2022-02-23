@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validate_Subsequence", "Validate_Subsequence.csproj", "{9BF6B3FB-9EEC-4702-B737-CFC119BD5D26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BF6B3FB-9EEC-4702-B737-CFC119BD5D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF6B3FB-9EEC-4702-B737-CFC119BD5D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF6B3FB-9EEC-4702-B737-CFC119BD5D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF6B3FB-9EEC-4702-B737-CFC119BD5D26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {441FF32A-119A-4E01-A38E-8CFE8C4D7391}
+	EndGlobalSection
+EndGlobal
