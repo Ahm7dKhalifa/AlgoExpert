@@ -1,0 +1,6 @@
+1- https://www.geeksforgeeks.org/sort-array-converting-elements-squares/
+2- https://www.callicoder.com/squares-of-a-sorted-array/
+3- https://medium.com/@saurav.agg19/squares-of-a-sorted-array-4db620c15028
+4- https://kodebinary.com/sort-squares-of-a-sorted-array-in-linear-runtime-on/
+5- https://www.enjoyalgorithms.com/blog/first-and-last-positions-of-element-in-sorted-array
+6- https://www.golibrary.co/squaring-a-sorted-array/
