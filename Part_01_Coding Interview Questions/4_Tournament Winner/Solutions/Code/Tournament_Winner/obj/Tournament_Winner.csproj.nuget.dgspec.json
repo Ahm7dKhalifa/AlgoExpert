@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj": {}
+    "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj": {}
   },
   "projects": {
-    "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj": {
+    "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
+        "projectUniqueName": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
         "projectName": "Tournament_Winner",
-        "projectPath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
-        "packagesPath": "C:\\Users\\ahmed.abdelaziz\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\obj\\",
+        "projectPath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
+        "packagesPath": "C:\\Users\\options\\.nuget\\packages\\",
+        "outputPath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ahmed.abdelaziz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\options\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -61,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
