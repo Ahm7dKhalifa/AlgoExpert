@@ -19,7 +19,7 @@ namespace Tournament_Winner.MySolutions
          * 
          * 
          * Time Complexity = O(k)
-         * k : Number Of Teams --> Size Of Dictionary
+         * k : Number Of Teams --> Size Of Linked List
          * 
          * */
 
