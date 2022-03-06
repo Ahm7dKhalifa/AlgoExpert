@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
+      "projectUniqueName": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\01_Arrays\\01_Easy\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
       "projectName": "Tournament_Winner",
-      "projectPath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
+      "projectPath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\01_Arrays\\01_Easy\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\Tournament_Winner.csproj",
       "packagesPath": "C:\\Users\\options\\.nuget\\packages\\",
-      "outputPath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\obj\\",
+      "outputPath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\01_Arrays\\01_Easy\\4_Tournament Winner\\Solutions\\Code\\Tournament_Winner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\options\\AppData\\Roaming\\NuGet\\NuGet.Config",
