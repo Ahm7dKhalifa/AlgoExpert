@@ -7,9 +7,11 @@ namespace NonConstructibleChange
     {
         static void Main(string[] args)
         {
-            int[] coins = {5, 7, 1, 1, 2, 3, 22};
+            //int[] coins = {5, 7, 1, 1, 2, 3, 22};
 
-            FirstSolution_UsingDictionary sol = new FirstSolution_UsingDictionary();
+            int[] coins = { 1,2,5 };
+
+            FirstSolution_UsingOneLoop sol = new FirstSolution_UsingOneLoop();
             
              sol.NonConstructibleChange(coins);
 

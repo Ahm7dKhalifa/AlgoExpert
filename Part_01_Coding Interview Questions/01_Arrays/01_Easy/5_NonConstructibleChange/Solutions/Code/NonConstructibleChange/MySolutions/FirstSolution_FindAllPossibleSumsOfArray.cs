@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace NonConstructibleChange.MySolutions
 {
-    public class FirstSolution_UsingDictionary
+    public class FirstSolution_FindAllPossibleSumsOfArray
     {
         /* algorithm analysis :
          * 
          * Time Complexity :
          * 1- FindAllPossibleSumsOfArray : o(t) = m = 2 power n     where n the size of array
-         * 2- sort                       : o(t) = m = n log n       where n the size of array
+         * 2- sort                       : o(t) = m log m           where m = 2 power n , n the size of array 
          * 3- loop                       : o(t) = m = 2 power n     where n the size of array
          * 
          * Space Complexity :
@@ -57,44 +57,35 @@ namespace NonConstructibleChange.MySolutions
         #region FindAllPossibleSumsOfArray
         public class FindAllPossibleSumsOfArray
         {
+            HashSet<int> AllPossibleSums;
+            public FindAllPossibleSumsOfArray()
+            {
+                AllPossibleSums = new HashSet<int>();
+            }
+
             public HashSet<int> GetAsHashSet(int[] array)
             {
-                HashSet<int> AllPossibleSums = new HashSet<int>();
-
-                FindAllPossibleSums(array, 0, AllPossibleSums);
+                FindAllPossibleSums( array, 0, 0);
 
                 return AllPossibleSums;
             }
 
 
-            public void FindAllPossibleSums(int[] array, int startIndex, HashSet<int> AllPossibleSums)
+       
+            public void FindAllPossibleSums( int[] array, int currentIndex , int sum = 0 )
             {
                 //base case
-                if (startIndex == array.Length - 1)
+                if (currentIndex == array.Length)
                 {
+                    AllPossibleSums.Add(sum);
                     return;
                 }
 
+                //include the element at current index
+                FindAllPossibleSums(array, currentIndex + 1 , sum + array[currentIndex]);
 
-                int currentElement = array[startIndex];
-                AllPossibleSums.Add(currentElement);
-
-                int totalSum = 0;
-
-
-                for (int i = startIndex; i < array.Length - 1; i++)
-                {
-                    int nextElement = array[i + 1];
-                    AllPossibleSums.Add(nextElement);
-
-                    int currentSum = currentElement + nextElement;
-                    AllPossibleSums.Add(currentSum);
-
-                    totalSum += currentSum;
-                    AllPossibleSums.Add(totalSum);
-                }
-
-                FindAllPossibleSums(array, startIndex + 1, AllPossibleSums);
+                //does not include the element at current index
+                FindAllPossibleSums(array, currentIndex + 1, sum);
             }
 
         }
