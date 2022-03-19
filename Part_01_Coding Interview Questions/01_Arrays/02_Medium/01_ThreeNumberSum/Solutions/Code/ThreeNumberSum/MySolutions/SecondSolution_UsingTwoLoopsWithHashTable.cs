@@ -10,9 +10,8 @@ namespace ThreeNumberSum.MySolutions
     {
         /* algorithm analysis :
          * Time Complexity : 
-         * - Convert Array To Hash Set = N
          * - Two Loops : N^2
-         * - Total : O(N^2 + N) ~= O(N^2)
+         * - Total : O(N^2)
          * 
          * Space Complexity : O(2N)
          * Hash Set : N
@@ -21,56 +20,45 @@ namespace ThreeNumberSum.MySolutions
          */
         public static List<int[]> ThreeNumberSum(int[] array, int targetSum)
         {
-            int firstNumber;
-            int secondNumber;
-            int expectedThirdNumber;
-
             List<int[]> result = new List<int[]>();
-
-            //this Sorting step in current Solution is not required to solve the problem 
-            //but required to pass automation tests case only
-            //ex : same numbers with different orders causes problem :
-            //expected :
-            //[
-            //[-8, 2, 6],
-            //[-8, 3, 5],
-            // [-6, 1, 5]
-            //]
-            //actual :
-            //[
-            //[3, 5, -8],
-            //[1, -6, 5],
-            //[2, -8, 6]
-            //]
-            Array.Sort(array);
-
-            HashSet<int> HashSet = array.ToHashSet();
+      
             if (array.Length >= 2)
             {
                 for (int i = 0; i < array.Length; i++)
                 {
-                    firstNumber = array[i];
+                    HashSet<int> HashSet = new HashSet<int>();
+
+                    int firstNumber = array[i];
+
+                    int currentSum = targetSum - array[i];
+
                     for (int j = i + 1; j < array.Length; j++)
                     {
-                        secondNumber = array[j];
+         
+                        int secondNumber = array[j];
 
-                        expectedThirdNumber = targetSum - (firstNumber + secondNumber);
+                        int expectedThirdNumber =  currentSum- secondNumber;
 
-                        bool isExpectedThirdNumberExist = HashSet.Contains(expectedThirdNumber) ;
+                        bool isExpectedThirdNumberExist = HashSet.Contains(expectedThirdNumber);
 
                         if (isExpectedThirdNumberExist)
                         {
                             int[] threeNumbers = { firstNumber, secondNumber, expectedThirdNumber };
-                            result.Add(threeNumbers);
-                            break;
+                            result.Add(threeNumbers);  
+                        }
+                        else
+                        {
+                            HashSet.Add(secondNumber);
                         }
 
                     }
                 }
             }
 
-
             return result;
         }
+
+
+        
     }
 }

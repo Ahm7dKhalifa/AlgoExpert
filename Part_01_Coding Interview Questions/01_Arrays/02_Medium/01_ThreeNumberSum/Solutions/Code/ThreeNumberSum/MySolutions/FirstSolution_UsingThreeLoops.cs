@@ -9,7 +9,7 @@ namespace ThreeNumberSum.MySolutions
     public class FirstSolution_UsingThreeLoops
     {
         /* algorithm analysis :
-         * Time Complexity : O(N3)   ---> Three Loops
+         * Time Complexity : O(N^3)   ---> Three Loops
          * Space Complexity : O(N)
          */
         public static List<int[]> ThreeNumberSum(int[] array, int targetSum)
@@ -42,9 +42,11 @@ namespace ThreeNumberSum.MySolutions
                 for (int i = 0; i < array.Length; i++)
                 {
                     firstNumber = array[i];
+
                     for (int j = i + 1; j < array.Length; j++)
                     {
                         secondNumber = array[j];
+
                         for (int k = j + 1; k < array.Length; k++)
                         {
                             thirdNumber = array[k];

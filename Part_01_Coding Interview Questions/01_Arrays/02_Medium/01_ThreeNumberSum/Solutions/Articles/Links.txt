@@ -1,0 +1,9 @@
+1- https://www.callicoder.com/three-sum-problem/
+2- https://learnersbucket.com/examples/algorithms/3-sum-problem-algorithm/
+3- https://www.algorithmsandme.com/3-sum-problem/
+4- https://fizzbuzzed.com/top-interview-questions-1/
+5- https://www.tutorialcup.com/leetcode-solutions/3sum-leetcode-solution.htm
+6- https://javascript.plainenglish.io/algorithm-problem-solving-two-sum-and-three-sum-problem-762606f68b65
+7- https://verbetcetera.com/tpost/6relfgnan2-3sum-leetcode-problem
+8- https://github.com/sahilbansal17/3Sum
+9- https://www.techiedelight.com/find-triplet-given-with-given-sum/

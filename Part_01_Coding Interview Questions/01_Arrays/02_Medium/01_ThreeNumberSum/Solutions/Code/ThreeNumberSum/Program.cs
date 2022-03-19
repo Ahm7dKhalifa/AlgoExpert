@@ -1,4 +1,5 @@
 ﻿using System;
+using ThreeNumberSum.MySolutions;
 
 namespace ThreeNumberSum
 {
@@ -6,7 +7,8 @@ namespace ThreeNumberSum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] array = { 12, 3, 1, 2, -6, 5, -8, 6 };
+            SecondSolution_UsingTwoLoopsWithHashTable.ThreeNumberSum(array, 0);
         }
     }
 }
