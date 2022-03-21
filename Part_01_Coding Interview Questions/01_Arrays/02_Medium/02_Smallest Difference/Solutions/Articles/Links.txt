@@ -1,0 +1,10 @@
+1- https://www.callicoder.com/smallest-difference-pair-two-unsorted-arrays/
+2- https://connormulholland.medium.com/finding-the-smallest-difference-f9d2797f43c9
+3- https://www.geeksforgeeks.org/smallest-difference-pair-values-two-unsorted-arrays/
+4- http://www.zrzahid.com/smallest-difference-between-2-elements-from-2-different-array/
+5- https://leetcode.com/problems/minimum-absolute-difference/description/
+6- https://www.geeksforgeeks.org/find-minimum-difference-pair/
+7- https://ourcodeworld.com/articles/read/1471/how-to-find-the-minimum-difference-between-2-numbers-inside-an-array-of-n-size-find-smallest-interval-in-php
+8- https://stackoverflow.com/questions/12232930/finding-out-the-minimum-difference-between-elements-in-an-array
+9- https://technorj.com/minimum-absolute-difference-in-an-array/
+10- https://codinghelmet.com/exercises/two-smallest
