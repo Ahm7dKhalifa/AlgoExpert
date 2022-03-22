@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveElemntToEnd", "MoveElemntToEnd.csproj", "{9079BE87-6537-4D98-ADB3-30F9EDE37A93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9079BE87-6537-4D98-ADB3-30F9EDE37A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9079BE87-6537-4D98-ADB3-30F9EDE37A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9079BE87-6537-4D98-ADB3-30F9EDE37A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9079BE87-6537-4D98-ADB3-30F9EDE37A93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ABD4168-204A-4C6F-BB78-A33674BC8D86}
+	EndGlobalSection
+EndGlobal
