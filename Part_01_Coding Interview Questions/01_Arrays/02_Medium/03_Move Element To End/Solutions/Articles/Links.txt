@@ -1,0 +1,6 @@
+1- https://www.geeksforgeeks.org/move-all-values-equal-to-k-to-the-end-of-the-array/
+2- https://blessingadesiji.medium.com/arrays-move-element-to-end-12a39cd3c5fb
+3- https://karanchauhan16.medium.com/moving-elements-to-the-end-of-an-array-23b8a0804d0c
+4- https://www.thiscodeworks.com/move-element-to-end-java/5f0b811c98f1590014b009ac
+5- https://leetcode.com/problems/move-zeroes/description/
+6- https://www.geeksforgeeks.org/how-to-move-specified-number-of-elements-to-the-end-of-an-array-in-javascript/
