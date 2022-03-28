@@ -1,0 +1,5 @@
+1- https://xaviercarty.medium.com/monotonic-array-e14eb2acc33e
+2- https://dev.to/ggorantala/monotonic-array-33fd
+3- https://helloacm.com/how-to-check-if-an-array-is-monotonic/
+4- https://www.studytonight.com/python-programs/python-program-to-check-if-given-array-is-monotonic
+5- https://www.geeksforgeeks.org/python-program-to-check-if-given-array-is-monotonic/
