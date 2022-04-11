@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SEuKGOdfJFHH2sz0ztvCiDcRP7SgohI4KZHLiQQZ4BIEELypQtnPzzwCp5b8QwmM2CACRP1S2Y0Ez7T6Sph/rg==",
+  "dgSpecHash": "1HvmWAxXKooysM6ZyaeCT/e4q4g5uVXvR9mWI5wQWRXoaMG9XPhraoHDjA87FdHZhOIVJRpgwUn5QG8VrACLqg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj",
+  "projectFilePath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\01_Easy\\01_Find Closest Value In BST\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

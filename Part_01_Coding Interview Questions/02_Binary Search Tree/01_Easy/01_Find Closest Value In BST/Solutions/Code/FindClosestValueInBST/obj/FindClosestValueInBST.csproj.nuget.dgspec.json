@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj": {}
+    "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\01_Easy\\01_Find Closest Value In BST\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj": {}
   },
   "projects": {
-    "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj": {
+    "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\01_Easy\\01_Find Closest Value In BST\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj",
+        "projectUniqueName": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\01_Easy\\01_Find Closest Value In BST\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj",
         "projectName": "FindClosestValueInBST",
-        "projectPath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj",
+        "projectPath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\01_Easy\\01_Find Closest Value In BST\\Solutions\\Code\\FindClosestValueInBST\\FindClosestValueInBST.csproj",
         "packagesPath": "C:\\Users\\ahmed.abdelaziz\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\Solutions\\Code\\FindClosestValueInBST\\obj\\",
+        "outputPath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\02_Binary Search Tree\\01_Easy\\01_Find Closest Value In BST\\Solutions\\Code\\FindClosestValueInBST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
