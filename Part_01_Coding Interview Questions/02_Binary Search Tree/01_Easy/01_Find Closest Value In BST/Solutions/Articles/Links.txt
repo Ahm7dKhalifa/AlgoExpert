@@ -1,0 +1,7 @@
+1- https://www.geeksforgeeks.org/find-closest-element-binary-search-tree/
+2- https://www.geeksforgeeks.org/find-the-closest-element-in-binary-search-tree-space-efficient-method/
+3- https://dev.to/eteimz/find-closest-value-in-binary-search-tree-30li
+4- https://www.callicoder.com/find-closest-element-binary-search-tree/
+5- https://www.codingninjas.com/codestudio/problem-details/closest-element-in-bst_920449
+6- https://www.abheist.com/6-find-closest-value-in-bst/
+7- https://stackoverflow.com/questions/70011757/binary-search-tree-traversal-find-closest-value
