@@ -1,0 +1,6 @@
+1- https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/
+2- https://www.baeldung.com/cs/bst-validation
+3- https://www.interviewbit.com/problems/valid-binary-search-tree/
+4- https://ttzztt.gitbooks.io/lc/content/validate-binary-search-tree.html
+5- https://www.java2novice.com/java-interview-programs/validate-binary-search-tree-bst/
+6- https://dev.to/akhilpokle/validate-a-binary-search-tree-1l1a

@@ -1,0 +1,13 @@
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\bin\Debug\netcoreapp3.1\Validate BST.exe
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\bin\Debug\netcoreapp3.1\Validate BST.deps.json
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\bin\Debug\netcoreapp3.1\Validate BST.runtimeconfig.json
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\bin\Debug\netcoreapp3.1\Validate BST.runtimeconfig.dev.json
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\bin\Debug\netcoreapp3.1\Validate BST.dll
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\bin\Debug\netcoreapp3.1\Validate BST.pdb
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.csprojAssemblyReference.cache
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.AssemblyInfoInputs.cache
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.AssemblyInfo.cs
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.csproj.CoreCompileInputs.cache
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.dll
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.pdb
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\03_Validate BST\Solutions\Code\Validate BST\Validate BST\obj\Debug\netcoreapp3.1\Validate BST.genruntimeconfig.cache
