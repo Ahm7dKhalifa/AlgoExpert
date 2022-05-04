@@ -9,7 +9,11 @@ namespace Validate_Subsequence.MySolutions
     public class FirstSolution_Correct_UsingTwoLoops
     {
         //algorithm analysis :
-        // O(n^2) time | O(1) space - where n is the length of the array
+        // O(n*m) time 
+        // where n is the size of main array
+        // and m is the size of sub array
+        //
+        // O(1) space - where n is the length of the array
         public static bool IsValidSubsequence(List<int> array, List<int> sequence)
         {
             int StartPosition = 0;

@@ -9,3 +9,7 @@
 9- https://karanchauhan16.medium.com/validate-subsequence-with-python-68ebeb5563e3
 10- https://shareablecode.com/snippets/solution-in-python3-for-validate-subsequence-problem-on-algoexpert-qfdY-NjrF
 11- https://velocitybytes.com/coding-problem-validate-subsequence
+12- https://www.tutorialcup.com/leetcode-solutions/is-subsequence-leetcode-solution.htm
+13- https://www.codingninjas.com/codestudio/problem-details/is-subsequence_892991
+14- https://dev.to/rembrandtreyes/let-s-solve-leetcode-is-subsequence-46j3
+15- https://www.youtube.com/watch?app=desktop&v=bgWX-auJpI0
