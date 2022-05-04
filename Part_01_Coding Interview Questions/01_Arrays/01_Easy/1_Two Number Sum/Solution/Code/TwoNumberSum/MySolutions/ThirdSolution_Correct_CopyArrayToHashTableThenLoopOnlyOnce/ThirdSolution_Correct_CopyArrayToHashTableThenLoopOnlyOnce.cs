@@ -10,12 +10,17 @@ namespace TwoNumberSum.MySolutions
         /* Algorithm Analysis
          * 
          * Time Complexity = O(2N) ~= O(N)
-         * Create Dictionary From Array = N
-         * Looping Through Dictionary To Add Numbers = N
+		 * where n is the size of array
+         * - Create Dictionary From Array = N
+         * - Looping Through Dictionary To Add Numbers = N
          * 
          * Space Complexity = O(2N) ~= O(N) 
-         * Dictionary = N
-         * Output List = N
+         * where n is the size of array
+         * - Dictionary = N
+         * - Output List = N or 1 based on the requirement of the problem:
+         * n when we need to find all pairs of sums
+         * 1 when we need to find first pair of sums
+         * 
          * 
          * Can Get More Smart Solution ?
          * See Second Solution On AlgoExpert Folder That Cost Only Time Complexity = O(N) and Space Complexity = O(N)

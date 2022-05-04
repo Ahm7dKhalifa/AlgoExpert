@@ -6,18 +6,19 @@ namespace TwoNumberSum.MySolutions
 {
     public class SecondSolution_Correct_UsingTwoLoops
     {
+
         /* algorithm analysis :
+         * 
          * 1- time complexity :
          * two loops --> O(t) = n^2
-         * 
+         * where n is the size of array
          * 
          * 2- space complexity :
-         * O(s) = n
-         * worst case example :
-         * array : [6,3,7,4,8,1,9,2]
-         * target sum : 10
-         * outPut = [6,4,3,7,8,2,9,1]
-         * we need extra list to store outPut , the size of outPut will equal size of array 
+         * based on the requirement of the problem
+         * O(s) = n when we need to find all pairs of sums
+         * O(s) = 1 when we need to find first pair of sums
+         * where n is the size of array
+         * 
          */
         public static int[] TwoNumberSum(int[] array, int targetSum)
         {
