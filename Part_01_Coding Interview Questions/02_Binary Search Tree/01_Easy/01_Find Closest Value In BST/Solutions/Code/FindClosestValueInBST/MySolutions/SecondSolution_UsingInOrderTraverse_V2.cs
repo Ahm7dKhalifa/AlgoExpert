@@ -25,7 +25,7 @@ namespace FindClosestValueInBST.MySolutions
          * 4.1  GetTheNextAndPreviousOfTargetOnSortedList
          * 4.2  if Target Has Previous Node
          *         DF1 = CalculateDifferenceBetweenTargetWithPrevious
-         *         DF1 = CalculateDifferenceBetweenNextWithTarget
+         *         DF2 = CalculateDifferenceBetweenNextWithTarget
          *         if(DF1 < DF2)
          *            return Closest Node = Previous Node
          *         else 
