@@ -1,5 +1,5 @@
 ﻿using System;
-using static Validate_BST.MySolutions.FirstSolution_UsingRecursion;
+using static Validate_BST.MySolutions.FirstSolution_Wrong_UsingRecursion;
 
 namespace Validate_BST
 {

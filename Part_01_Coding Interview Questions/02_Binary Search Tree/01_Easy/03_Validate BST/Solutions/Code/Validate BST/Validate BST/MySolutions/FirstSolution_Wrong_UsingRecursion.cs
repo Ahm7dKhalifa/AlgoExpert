@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Validate_BST.MySolutions
 {
-	public class FirstSolution_UsingRecursion
+	public class FirstSolution_Wrong_UsingRecursion
 	{
 		#region Algorithm Design
 		/*
@@ -32,23 +32,30 @@ namespace Validate_BST.MySolutions
 
 		#region Algorithm Analysis
 		/*
-		 * Time Complexity :
+		 * Time Complexity : O(n)
 		 * Step1 --> O(1)
 		 * Step2 --> O(1) 
 		 * Step3 --> O(1) 
 		 * Step4 --> O(log n) 
 		 * Step5 --> O(log n) 
-		 * Step6 --> O(1)  
+		 * Step6 --> O(1) 
+		 * 
+		 * Space Complexity : 
+		 * average : O(log n) when tree is balanced
+		 * worst : O(n) when array is skewed
+		 * note : we do not use any extra space in this problem..
+		 * so why Space Complexity != O(1) ?
+		 * becuase the recursion frames on the memory
+		 * 
 		 */
 		#endregion
+
+		#region Algorithm Implementation
 		public static bool ValidateBst(BST tree)
 		{
-
-			return ValidateBinarySearchTree(tree, 0 , tree.value);
-
+			return ValidateBinarySearchTree(tree, tree.value);
 		}
-
-		public static bool ValidateBinarySearchTree(BST CurrentNode, int typeOfSubtree , int valueOfRootNode)
+		public static bool ValidateBinarySearchTree(BST CurrentNode, int valueOfRootNode )
 		{
 
 			if (CurrentNode == null)
@@ -57,34 +64,16 @@ namespace Validate_BST.MySolutions
 			BST LeftNode = CurrentNode.left;
 			BST RightNode = CurrentNode.right;
 			
-			if (LeftNode != null &&  CurrentNode.value <= LeftNode.value )
+
+			if (LeftNode != null && CurrentNode.value < LeftNode.value)
 				return false;
 
-			if (RightNode != null && CurrentNode.value >= RightNode.value )
+			if (RightNode != null && CurrentNode.value > RightNode.value)
 				return false;
 
-            switch (typeOfSubtree)
-            {
-				case (int)TypeOfSubtree.Root:
-			    {
-				    return ValidateBinarySearchTree(LeftNode, (int)TypeOfSubtree.Left, valueOfRootNode) && ValidateBinarySearchTree(RightNode, (int)TypeOfSubtree.Right, valueOfRootNode);
-			    }
-				case (int)TypeOfSubtree.Left:
-                {
-					if (CurrentNode.value >= valueOfRootNode)
-						return false;
-					break;
-			    }
-				case (int)TypeOfSubtree.Right:
-				{
-						if (CurrentNode.value <= valueOfRootNode)
-							return false;
-						break;
-				}
-				default: break;
-			}
 
-			return ValidateBinarySearchTree(LeftNode, typeOfSubtree, valueOfRootNode) && ValidateBinarySearchTree(RightNode, typeOfSubtree, valueOfRootNode);
+			return ValidateBinarySearchTree(LeftNode, valueOfRootNode) 
+				&& ValidateBinarySearchTree(RightNode, valueOfRootNode);
 
 		}
 
@@ -100,12 +89,6 @@ namespace Validate_BST.MySolutions
 			}
 		}
 
-
-		public enum TypeOfSubtree
-        {
-			Root = 0,
-			Left = 1 ,
-			Right = 2
-        }
+		#endregion
 	}
 }
