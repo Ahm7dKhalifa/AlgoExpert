@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FindKth
+namespace FindKth.MySolutions
 {
     public class FirstSolution
     {
@@ -52,7 +52,7 @@ namespace FindKth
 			int SortedListLength;
 			int KIndex;
 			BinarySearchTree.InOrderTraverse(tree, SortedList);
-			SortedListLength = SortedList.Count - 1;
+			SortedListLength = SortedList.Count;
 			if (k <= SortedListLength)
             {
 				KIndex = SortedListLength - k;
