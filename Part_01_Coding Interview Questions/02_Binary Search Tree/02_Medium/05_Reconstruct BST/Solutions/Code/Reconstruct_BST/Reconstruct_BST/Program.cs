@@ -12,18 +12,32 @@ namespace Reconstruct_BST
 		//[Test]
 		static void Main(string[] args)
         {
+			/*
+			Test Case 1
 			List<int> preOrderTraversalValues = new List<int> {
-			10, 4, 2, 1, 3, 17, 19, 18
+			10, 4, 2, 1, 5, 17, 19, 18
 		    };
 			BST tree = new BST(10);
 			tree.left = new BST(4);
 			tree.left.left = new BST(2);
 			tree.left.left.left = new BST(1);
-			tree.left.right = new BST(3);
+			tree.left.right = new BST(5);
 			tree.right = new BST(17);
 			tree.right.right = new BST(19);
 			tree.right.right.left = new BST(18);
 			List<int> expected = getDfsOrder(tree, new List<int>());
+			var actual = new FirstSolution().ReconstructBst(preOrderTraversalValues);
+			//Utils.AssertTrue(Enumerable.SequenceEqual(expected, actualValues));
+			*/
+
+			//Test Case 8
+			List<int> preOrderTraversalValues = new List<int> {
+			     2, 0, 1
+			};
+			BST tree = new BST(2);
+			tree.left = new BST(0);
+			tree.left.right = new BST(1);
+			
 			var actual = new FirstSolution().ReconstructBst(preOrderTraversalValues);
 			List<int> actualValues = getDfsOrder(actual, new List<int>());
 			//Utils.AssertTrue(Enumerable.SequenceEqual(expected, actualValues));

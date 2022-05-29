@@ -1,8 +1,8 @@
-1- https://www.geeksforgeeks.org/kth-largest-element-bst-using-constant-extra-space/
-2- https://www.geeksforgeeks.org/kth-largest-element-in-bst-when-modification-to-bst-is-not-allowed/
-3- https://www.enjoyalgorithms.com/blog/kth-largest-element-in-bst
-4- https://afteracademy.com/blog/sorted-array-to-balanced-bst
-5- https://takeuforward.org/data-structure/kth-largest-smallest-element-in-binary-search-tree/
-6- https://www.tutorialcup.com/interview/tree/kth-largest-element-in-bst-when-modification-to-bst-is-not-allowed.htm
-7- https://learnersbucket.com/examples/algorithms/find-kth-smallest-and-largest-element-in-bst/
-8- https://www.codingninjas.com/codestudio/library/kth-largest-element-bst
+1- https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/
+2- https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversal-set-2/
+3- https://www.techiedelight.com/build-binary-search-tree-from-preorder-sequence/
+
+4- https://www.enjoyalgorithms.com/blog/time-complexity-analysis-of-recursion-in-programming
+
+5- https://www.tutorialcup.com/interview/tree/construct-bst-from-given-preorder-traversal.htm
+
