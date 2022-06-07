@@ -11,12 +11,15 @@ namespace BranchSums.MySolutions
         #region Algorithm Design
         /*
          * - BranchSumsHelper(sumList , currentNode , currentBranchTotalSum)
-         * Base Case
-         * 1- If currentNode == null
-         *    add currentBranchTotalSum To SumList
-         *    currentBranchTotalSum = 0
+         * Base Case 1
+         * If currentNode == null
+         *    return null
          * 
          * currentBranchTotalSum += currentNode
+         * 
+         * Base Case 2
+         * if currentNode is leaf node
+         *    add currentBranchTotalSum To SumList
          * 
          * BranchSumsHelper(sumList , currentNode.Left , currentBranchTotalSum)
          * BranchSumsHelper(sumList , currentNode.Right , currentBranchTotalSum)
@@ -25,15 +28,34 @@ namespace BranchSums.MySolutions
         #endregion
         #region Algorithm Analysis
         /*
+         ********** Time Complexity :
+         * 
          * - BranchSumsHelper(sumList , currentNode , currentBranchTotalSum)
-         * 1- If currentNode == null
+         * Base Case 1
+         * If currentNode == null --> O(1)
+         *    return null
+         * 
+         * currentBranchTotalSum += currentNode  --> O(1)
+         * 
+         * Base Case 2
+         * if currentNode is leaf node --> O(1)
          *    add currentBranchTotalSum To SumList
-         *    currentBranchTotalSum = 0
          * 
-         * currentBranchTotalSum += currentNode
+         * BranchSumsHelper(sumList , currentNode.Left , currentBranchTotalSum)  --> T(n/2)
+         * BranchSumsHelper(sumList , currentNode.Right , currentBranchTotalSum) --> T(n/2)
          * 
-         * BranchSumsHelper(sumList , currentNode.Left , currentBranchTotalSum)
-         * BranchSumsHelper(sumList , currentNode.Right , currentBranchTotalSum)
+         * total time complexity = O(1) + O(1) + O(1) + T(n/2) + T(n/2)
+         *                       = 2T(n/2) + O(3)
+         *                       = T(n) + C
+         *                       = O(n)
+         *                       
+         *
+         ******** Space Complexity : 
+         * 
+         * currentBranchTotalSum = O(1)
+         * sumList = O(N)
+         * 
+         * Total Space Complexity = O(N)
          * 
          */
         #endregion

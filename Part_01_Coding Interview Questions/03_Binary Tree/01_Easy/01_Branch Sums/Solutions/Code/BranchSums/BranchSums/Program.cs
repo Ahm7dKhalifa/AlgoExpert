@@ -1,6 +1,6 @@
 ﻿using BranchSums.MySolutions;
 using System;
-using static BranchSums.MySolutions.FirstSolution;
+using static BranchSums.MySolutions.SecondSolution;
 
 namespace BranchSums
 {
@@ -26,7 +26,9 @@ namespace BranchSums
 
             root.left.right.left = new BinaryTree(10);
 
-            var result = FirstSolution.BranchSums(root);
+            //var result = FirstSolution.BranchSums(root);
+
+            var result = SecondSolution.BranchSums(root);
 
             Console.WriteLine();
         }
