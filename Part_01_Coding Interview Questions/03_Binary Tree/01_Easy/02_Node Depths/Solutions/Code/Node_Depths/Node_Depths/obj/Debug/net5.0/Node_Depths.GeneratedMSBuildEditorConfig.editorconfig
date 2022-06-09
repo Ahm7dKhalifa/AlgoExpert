@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Node_Depths
+build_property.ProjectDir = D:\Github\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\01_Easy\02_Node Depths\Solutions\Code\Node_Depths\Node_Depths\
