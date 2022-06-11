@@ -50,7 +50,7 @@ namespace Node_Depths.MySolutions
 				while(NodesStack.Count > 0)
                 {
 					BinaryTree CurrentNode = NodesStack.Pop();
-					TotalSumOfDepths = CurrentNode.Depth;
+					TotalSumOfDepths += CurrentNode.Depth;
 					AddChildNodeToStack(CurrentNode.left, CurrentNode, NodesStack);
 					AddChildNodeToStack(CurrentNode.right, CurrentNode, NodesStack);
 					/*
