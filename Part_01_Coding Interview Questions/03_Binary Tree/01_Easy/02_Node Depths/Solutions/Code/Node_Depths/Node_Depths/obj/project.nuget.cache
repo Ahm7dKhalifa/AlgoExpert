@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< Updated upstream
-  "dgSpecHash": "2T8tXGqmH4WacJZnFt+v6S7EOTcFaAfoXLGCMaeOSFYrCRk8vy+yMjkKhonNFgSfCsEzJHcgRu/UloBv7JOoMA==",
-=======
   "dgSpecHash": "MFWZ3Sbzd2kH4CbyMzXUF1YwtQqAS4LInUyRZjWL8Q1pYbbokruP4rm9xm4FWDz3ghFOA4duh8VijQ1a5qEokQ==",
->>>>>>> Stashed changes
   "success": true,
-  "projectFilePath": "E:\\_Programming\\AlgoExpert\\Part_01_Coding Interview Questions\\03_Binary Tree\\01_Easy\\02_Node Depths\\Solutions\\Code\\Node_Depths\\Node_Depths\\Node_Depths.csproj",
+  "projectFilePath": "D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\03_Binary Tree\\01_Easy\\02_Node Depths\\Solutions\\Code\\Node_Depths\\Node_Depths\\Node_Depths.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Github\\AlgoExpert\\Part_01_Coding Interview Questions\\03_Binary Tree\\01_Easy\\02_Node Depths\\Solutions\\Code\\Node_Depths\\Node_Depths\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
