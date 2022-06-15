@@ -1,11 +1,12 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    ".NETFramework,Version=v5.0": {},
+    ".NETFramework,Version=v5.0/win7-x86": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    ".NETFramework,Version=v5.0": []
   },
   "packageFolders": {
     "C:\\Users\\options\\.nuget\\packages\\": {}
@@ -31,8 +32,7 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net50": {
           "projectReferences": {}
         }
       },
@@ -43,6 +43,7 @@
       }
     },
     "frameworks": {
+<<<<<<< Updated upstream
       "net5.0": {
         "targetAlias": "net5.0",
         "imports": [
@@ -61,6 +62,15 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+=======
+      "net50": {
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+>>>>>>> Stashed changes
       }
     }
   }
