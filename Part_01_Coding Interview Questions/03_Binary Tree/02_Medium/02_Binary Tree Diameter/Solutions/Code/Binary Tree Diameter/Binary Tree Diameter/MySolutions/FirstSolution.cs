@@ -7,102 +7,113 @@ using System.Threading.Tasks;
 namespace Binary_Tree_Diameter.MySolutions
 {
     public class FirstSolution
-    {
-		#region Algorithm Design
+	{
+		#region Algorithm Analysis
 		/*
-		- BinaryTreeDiameterHelper(BinaryTree node , MaxHeightResult MaxHeightResult)
-		 
-		 //Base Case 1 :
-		  if( node == null )
-		      return;
-		 
-		 //Base Case 2 :
-		 if( node.left == null && node.right == null )
-		 ---> CurrentNodeHeight = 1
-		 ---> Return 
+		******************************************
+		* Time Complexity
+		* ****************************************
+		public int BinaryTreeDiameterHelper(BinaryTree node, DiameterResult diameterResult)
+		{
+		   //base case 1
+		   if (node == null) --> O(1)
+		   {
+			   return 0;
+		   }
 
-		 //Recursion Cases : 
-		 BinaryTreeDiameterHelper( node.left , MaxHeightResult MaxHeightResult)
-		 BinaryTreeDiameterHelper( node.right , MaxHeightResult MaxHeightResult)
+		   //base case 2
+		   if (node.left == null && node.right == null) --> O(1)
+		   {
+			   return 0;
+		   }
 
-		 //Business Logic :
-		 node.CalculateTotalHieght()
-			 int LeftSubreeHeight =  node.left != null ? node.left.CurrentNodeHeight : 0;
-			 int RightSubreeHeight =  node.right != null ? node.right.CurrentNodeHeight : 0;
-			 CurrentNodeHeight = LeftSubreeHeight + RightSubreeHeight
-		 
-		 MaxHeightResult.CalculateMaxHeight(CurrentNodeHeight) 
-		
+		   int leftDiamter = 0;  --> O(1)
+		   int rightDiamter = 0; --> O(1)
+		   int totalDiamter = 0; --> O(1)
+
+		   //Recursion Cases : 
+		   if (node.left != null)
+			   leftDiamter = BinaryTreeDiameterHelper(node.left, diameterResult) + 1;    --> O(T(N/2))
+		   if (node.right != null)
+			   rightDiamter = BinaryTreeDiameterHelper(node.right, diameterResult) + 1;  --> O(T(N/2));
+
+		   //Business Logic
+		   totalDiamter = leftDiamter + rightDiamter; --> O(1)
+		   diameterResult.SetIfMax(totalDiamter);     --> O(1)
+		   int Height = Math.Max(leftDiamter, rightDiamter); --> O(1)
+
+		   return Height;
+		}
+
+		Total Time = O(T(N/2)) + O(T(N/2)) + O(8);
+		           = 2(T(N/2)) + C
+		           = N
+
+
 		*/
 		#endregion
 		public int BinaryTreeDiameter(BinaryTree tree)
 		{
-			BinaryTreeDiameterHelper(tree);
-			return MaxBinaryTreeDiameterResult.GetMaxDiameter();
+		   DiameterResult diameterResult = new DiameterResult();
+		   BinaryTreeDiameterHelper(tree, diameterResult);
+		   return diameterResult.Max;
 		}
 
-		public void BinaryTreeDiameterHelper(BinaryTree node)
+		public int BinaryTreeDiameterHelper(BinaryTree node, DiameterResult diameterResult)
 		{
-			//Base Case 1 :
-			if (node == null)
-				return;
+		   //base case 1
+		   if (node == null)
+		   {
+			   return 0;
+		   }
 
-			//Base Case 2 :
-			if (node.left == null && node.right == null)
-            {
-				node.currentHeight = 1;
-				return;
-			}
+		   //base case 2
+		   if (node.left == null && node.right == null)
+		   {
+			   return 0;
+		   }
 
-			//Recursion Cases : 
-			BinaryTreeDiameterHelper(node.left);
-			BinaryTreeDiameterHelper(node.right);
+		   int leftDiamter = 0;
+		   int rightDiamter = 0;
+		   int totalDiamter = 0;
 
-			//Business Logic :
-			node.CalculateTotalSumOfLeftAndRight();
-			MaxBinaryTreeDiameterResult.SetIfMax(node.totalSumOfLeftAndRight);
+		   //Recursion Cases : 
+		   if (node.left != null)
+				leftDiamter  = BinaryTreeDiameterHelper(node.left, diameterResult) + 1;
+		   if (node.right != null)
+			   rightDiamter = BinaryTreeDiameterHelper(node.right, diameterResult) + 1;
+
+		   //Business Logic
+		   totalDiamter = leftDiamter + rightDiamter;
+		   diameterResult.SetIfMax(totalDiamter);
+		   int Height = Math.Max(leftDiamter, rightDiamter);
+
+		   return Height;
 		}
 
 		public class BinaryTree
 		{
-			public int value;
-			public BinaryTree left;
-			public BinaryTree right;
-			public int currentHeight;
-			public int leftHeight;
-			public int rightHeight;
-			public int totalSumOfLeftAndRight;
+		   public int value;
+		   public BinaryTree left;
+		   public BinaryTree right;
 
-			public BinaryTree(int value)
-			{
-				this.value = value;
-			}
+		   public BinaryTree(int value)
+		   {
+			   this.value = value;
+		   }
 
-			public void CalculateTotalSumOfLeftAndRight()
-            {
-				leftHeight = this.left != null ? this.left.currentHeight : 0;
-				rightHeight = this.right != null ? this.right.currentHeight : 0;
-				totalSumOfLeftAndRight = leftHeight + rightHeight;
-			}
-
-		
 		}
 
-		public class MaxBinaryTreeDiameterResult
+		public class DiameterResult
 		{
-			public static int MaxHeight;
+		   public int Max;
 
-			public static void SetIfMax(int currentTotalSumOfLeftAndRight)
-            {
-				if (currentTotalSumOfLeftAndRight > MaxHeight)
-					MaxHeight = currentTotalSumOfLeftAndRight;
-			}
-
-			public static int GetMaxDiameter()
-			{
-				return MaxHeight - 1;
-			}
+		   public void SetIfMax(int currentTotalSumOfLeftAndRight)
+		   {
+			   if (currentTotalSumOfLeftAndRight > Max)
+				   Max = currentTotalSumOfLeftAndRight;
+		   }
 
 		}
-	}
+    }
 }
