@@ -1,0 +1,16 @@
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\FindSuccessor.exe
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\FindSuccessor.deps.json
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\FindSuccessor.runtimeconfig.json
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\FindSuccessor.runtimeconfig.dev.json
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\FindSuccessor.dll
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\ref\FindSuccessor.dll
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\bin\Debug\net5.0\FindSuccessor.pdb
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.csprojAssemblyReference.cache
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.GeneratedMSBuildEditorConfig.editorconfig
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.AssemblyInfoInputs.cache
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.AssemblyInfo.cs
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.csproj.CoreCompileInputs.cache
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.dll
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\ref\FindSuccessor.dll
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.pdb
+E:\_Programming\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\obj\Debug\net5.0\FindSuccessor.genruntimeconfig.cache
