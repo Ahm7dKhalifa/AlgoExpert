@@ -1,3 +1,9 @@
 1- https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/
 2- https://byjus.com/maths/predecessor-and-successor/
 3- https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
+4- https://www.geeksforgeeks.org/inorder-succesor-node-binary-tree/
+5- https://www.techiedelight.com/find-inorder-successor-given-key-bst/
+6- https://helloacm.com/finding-the-predecessor-and-successor-node-of-a-binary-search-tree/
+7- https://www.baeldung.com/cs/in-order-node-successor
+8- https://www.tutorialcup.com/interview/tree/inorder-successor-of-a-node-in-binary-tree.htm
+9- https://www.ritambhara.in/inorder-successor-of-node-in-a-binary-tree/
