@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = FindClosestValueInBST
+build_property.ProjectDir = E:\My\Github\AlgoExpert\Part_01_Coding Interview Questions\02_Binary Search Tree\01_Easy\01_Find Closest Value In BST\Solutions\Code\FindClosestValueInBST\

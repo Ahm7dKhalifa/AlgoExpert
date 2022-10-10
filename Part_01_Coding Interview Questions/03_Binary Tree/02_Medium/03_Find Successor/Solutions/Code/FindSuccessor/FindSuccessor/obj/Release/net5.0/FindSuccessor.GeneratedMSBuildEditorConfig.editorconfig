@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = FindSuccessor
+build_property.ProjectDir = E:\My\Github\AlgoExpert\Part_01_Coding Interview Questions\03_Binary Tree\02_Medium\03_Find Successor\Solutions\Code\FindSuccessor\FindSuccessor\
